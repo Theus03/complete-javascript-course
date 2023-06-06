@@ -23,7 +23,7 @@ let job1 = "programmer";
 let job2 = "techer";
 
 console.log(myFirstJob);
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -46,6 +46,47 @@ console.log(typeof year);
 console.log(typeof null);
 
 console.log()
+
+
+let age = 30; // LET = pode ser alterada 
+age = 31;
+
+const birthYear = 1991; // CONST - Não pode ser alterada, também não pode ser declarada vazia
+//birthYear = 1990; 
+//const job; VAI DAR ERRO AQUI, POIS NÃO PODE SER DECLARADA VAZIA
+
+var job = 'programmer'; // VAR - Basicamente serve igual ao var, porém é um pouco
+job = 'teacher';
+
+lastName = 'Leite'; // Não é uma boa prática
+console.log(lastName);
+*/
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2020;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+
+const firstName = 'Matheus';
+const lastName = 'Leite';
+console.log(firstName + ' ' + lastName);
+
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 
+x--;
+x--;
+console.log(x);
+
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
 
 // PRACTICE
 
